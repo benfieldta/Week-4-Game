@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Crystal Collector Game!</title>
+
+</head>
+<body>
+
+  <header><img src="assets/images/ccglogo.png" alt="logo"></header>
+
+  <div id="Instructions">
+
+    <h3>Instructions:</h3>
+
+     <ul>
+
+        <li>You will be given a random number at the start of the game.</li>
+        <br>
+        <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+        <br>
+        <li>You win the game by matching your total score to the random number provided. You lose the game if your total score goes over the random number provided.</li>
+        <br>
+        <li>The value of each crystal is hidden from you until you click on it.</li>
+        <br>
+        <li>Each time the game starts, the value of the crystals will be different.</li>
+
+     </ul>
+
+  </div>
+
+  
+  <div id="gameContainer">
+
+      <h2>Target Number to Guess: <span id="guessNumber"></span></h2>
+
+      <h2>Current Total: <span id="currentTotal"></span></h2>
+
+      <div id="winLoss">
+          <h3>Games Won: <span id="wins"></span></h3>
+          <h3>Games Lost: <span id="losses"></span></h3>
+      </div>
+
+      <div id="crystals"></div>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+  <script type="text/javascript" src="assets/javascript/script.js"></script>
+
+</body>
+</html>

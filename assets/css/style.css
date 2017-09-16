@@ -1,0 +1,45 @@
+body {
+	background-image: url("https://i.pinimg.com/originals/7a/12/00/7a12004f0af40238d9a986436180f186.jpg");
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: white;
+	text-align: center;
+}
+
+header{
+	margin-bottom: 40px;
+}
+
+#Instructions {
+	border: 2px solid white;
+	width: 45%;
+	margin: auto;
+	padding-right: 35px;
+	margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		min-height: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		min-height: 1000px;
+		margin: 0 auto;
+	}
+
+	div {
+		width: 100%;
+		margin: 0 auto;
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
