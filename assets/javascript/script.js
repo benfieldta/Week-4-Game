@@ -43,7 +43,7 @@ $(document).ready(function() {
 				console.log("win");
 				wins++;
 				$("#wins").text(wins);
-				$("crystals").empty();
+				$("#crystals").empty();
 				crystalGame();
 				reset();
 			}
